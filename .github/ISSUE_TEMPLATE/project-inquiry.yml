@@ -1,0 +1,69 @@
+name: Project inquiry
+description: Discuss an AI, automation, backend, delivery, or product engineering project
+title: "[Project inquiry] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for getting in touch. Please avoid posting confidential information, credentials, personal data, or proprietary documents in this public issue. A short non-sensitive overview is enough to start.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Business problem
+      description: What process, bottleneck, or outcome should the project address?
+      placeholder: Describe the current process, its users, and the desired improvement.
+    validations:
+      required: true
+  - type: dropdown
+    id: capabilities
+    attributes:
+      label: Capabilities involved
+      description: Choose the closest primary area. Additional areas can be described below.
+      options:
+        - Local or private LLM platform
+        - AI agent, RAG, or internal copilot
+        - Business-process automation
+        - Backend or API development
+        - Web application
+        - Kotlin Multiplatform or Android application
+        - Flutter application
+        - Telegram bot
+        - CI/CD, self-hosted runners, or deployment
+        - Monitoring and operational systems
+        - End-to-end product delivery
+    validations:
+      required: true
+  - type: textarea
+    id: systems
+    attributes:
+      label: Existing systems and integrations
+      description: Which APIs, databases, CRM/ERP, document stores, queues, or other services are involved?
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Security and deployment constraints
+      description: Mention on-premises, local LLM, privacy, compliance, network, or infrastructure requirements. Do not include secrets.
+  - type: input
+    id: scale
+    attributes:
+      label: Expected scale
+      placeholder: Users, requests, documents, or other useful volume indicators
+  - type: input
+    id: timeline
+    attributes:
+      label: Desired timeline
+      placeholder: Pilot or production target
+  - type: textarea
+    id: success
+    attributes:
+      label: Success criteria
+      description: How will we know the solution creates business value?
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Public issue acknowledgement
+      options:
+        - label: I have not included confidential information, credentials, personal data, or proprietary documents.
+          required: true
