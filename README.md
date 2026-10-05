@@ -82,6 +82,14 @@ My core principles:
 
 A runnable, production-minded reference for private local LLM inference, RAG, business-process analysis, FastAPI, Telegram, Docker, Prometheus/Grafana, GitHub Actions, and self-hosted delivery. It includes tests, an offline demo mode, operational endpoints, security notes, and an incremental production roadmap.
 
+### [Enterprise AI KMP Client](https://github.com/maxlord/enterprise-ai-kmp-client)
+
+A Kotlin Multiplatform and Compose reference client with shared UI, state, domain models, offline demo data, and an injectable HTTP gateway for private AI systems on iOS and desktop.
+
+### [Enterprise AI Flutter Client](https://github.com/maxlord/enterprise-ai-flutter-client)
+
+A responsive Android, iOS, web, and macOS client for local LLM and RAG workflows. It demonstrates feature-first MVVM, typed API integration, grounded answers, tests, and a direct connection to the platform showcase.
+
 ### [BMAD Method × Android](https://github.com/maxlord/bmad-ai-integration)
 
 A runnable reference showing how an AI-assisted workflow connects product context, architecture, implementation, testing, review, and GitHub Actions in a real Android repository.
@@ -89,8 +97,6 @@ A runnable reference showing how an AI-assisted workflow connects product contex
 ### [Android modular application skeleton](https://github.com/maxlord/android-skeleton-application)
 
 A multi-module Kotlin application demonstrating coroutines, Flow, Retrofit, dependency injection, Jetpack Compose, and version catalogs.
-
-Public Kotlin Multiplatform and Flutter reference implementations are being prepared next.
 
 ## Problems I am interested in
 
