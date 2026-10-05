@@ -78,6 +78,10 @@ My core principles:
 
 ## Selected work
 
+### [Enterprise AI Platform Showcase](https://github.com/maxlord/enterprise-ai-platform-showcase)
+
+A runnable, production-minded reference for private local LLM inference, RAG, business-process analysis, FastAPI, Telegram, Docker, Prometheus/Grafana, GitHub Actions, and self-hosted delivery. It includes tests, an offline demo mode, operational endpoints, security notes, and an incremental production roadmap.
+
 ### [BMAD Method × Android](https://github.com/maxlord/bmad-ai-integration)
 
 A runnable reference showing how an AI-assisted workflow connects product context, architecture, implementation, testing, review, and GitHub Actions in a real Android repository.
@@ -86,7 +90,7 @@ A runnable reference showing how an AI-assisted workflow connects product contex
 
 A multi-module Kotlin application demonstrating coroutines, Flow, Retrofit, dependency injection, Jetpack Compose, and version catalogs.
 
-More public reference implementations for local LLM infrastructure, business automation, Kotlin Multiplatform, and Flutter are being prepared.
+Public Kotlin Multiplatform and Flutter reference implementations are being prepared next.
 
 ## Problems I am interested in
 
