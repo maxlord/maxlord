@@ -13,6 +13,7 @@ My focus is not “adding a chatbot”. It is building a measurable business cap
 - AI agents, tool calling, RAG, structured output, and evaluation
 - Permission-aware knowledge assistants and internal copilots
 - Model routing, quality/latency/cost measurement, and guardrails
+- Agent Skills libraries and plugin marketplaces for Claude Code and Codex, with quality and security linting of skills and a ranked catalog ([SkillHub](https://github.com/maxlord/skillhub), [skills.aura-aum.com](https://skills.aura-aum.com))
 
 ### Business-process automation
 
