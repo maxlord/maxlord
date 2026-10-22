@@ -90,6 +90,10 @@ A Kotlin Multiplatform and Compose reference client with shared UI, state, domai
 
 A responsive Android, iOS, web, and macOS client for local LLM and RAG workflows. It demonstrates feature-first MVVM, typed API integration, grounded answers, tests, and a direct connection to the platform showcase.
 
+### [SkillHub](https://github.com/maxlord/skillhub)
+
+Engineering practices of a six-repo, agent-driven product pipeline packaged as Agent Skills and a Claude Code plugin marketplace, with card and security linting in CI.
+
 ### [BMAD Method × Android](https://github.com/maxlord/bmad-ai-integration)
 
 A runnable reference showing how an AI-assisted workflow connects product context, architecture, implementation, testing, review, and GitHub Actions in a real Android repository.
